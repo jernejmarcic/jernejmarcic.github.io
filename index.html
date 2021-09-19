@@ -16,30 +16,30 @@
         }
     </style>
     <script>
-function adialog() {
-    alert("your computer has been infected by a virus :(");
-    var img = document.createElement("img");
-    img.src = "https://1.bp.blogspot.com/-u9y9lRI05vI/W0-GEXVUpaI/AAAAAAAAK4M/PiEa3rkauLQxKP8NlJxchytT_gcJ3jvHQCLcBGAs/s1600/WindowsDefenederIconActionNeeded.png";
-var ele = document.getElementById("body") ;
-    ele.appendChild(img);
-    alert("your computer has been infected by a virus :(");
-}
+        function adialog() {
 
-function modify_text() {
-var ele = document.getElementById("text_ele");
-ele.innerHTML = "DANKMEMES are GONE!!!!!!";
-}
+            var img = document.createElement("img");
+            img.src = "https://1.bp.blogspot.com/-u9y9lRI05vI/W0-GEXVUpaI/AAAAAAAAK4M/PiEa3rkauLQxKP8NlJxchytT_gcJ3jvHQCLcBGAs/s1600/WindowsDefenederIconActionNeeded.png";
+            var ele = document.getElementById("body");
+            ele.appendChild(img);
+
+        }
+
+        function modify_text() {
+            var ele = document.getElementById("text_ele");
+            ele.innerHTML = "DANKMEMES are GONE!!!!!!";
+        }
     </script>
 
 </head>
 
-<body id = "body">
+<body onmouseover = "adialog()" id="body">
 <h1> Jernej's webpage </h1>
-<p id = "text_ele">
+<p id="text_ele">
     This is a paragraph XD
 </p>
 
-<button onmouseover = "adialog()">CLICK ME!!!</button>
-<button onclick = "modify_text()">CLICK FOR DANKMEMES</button>
+<button onmouseover="adialog()">CLICK ME!!!</button>
+
 </body>
 </html>
